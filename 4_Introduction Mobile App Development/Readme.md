@@ -1,6 +1,6 @@
 # Summary
 
-## Introducyion Mobile App Development
+## Introduction Mobile App Development
 
 Mobile App Develompment merupakan suatu proses pengembangan aplikasi yang berjalan pada perangkat mobile. Aplikasi mobile, web dan desktop pada dasarnya merupakan sebuah software. Software merupakan perangkat lunak yang tersimpan dan dapat dikendalikan pada sistem komputer yang terbentuk atas perintah-perintah yang terorganisir berjalan sesuai kemauan dibutuhkan dan tidak memiliki bentuk fisik.
 
