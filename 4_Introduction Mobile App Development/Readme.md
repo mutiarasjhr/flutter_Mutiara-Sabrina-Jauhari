@@ -8,3 +8,4 @@ Jenis-jenis software, yaitu software web, software desktop, software mobile.
 
 Pengembangan software menggunakan bahasa pemrograman, yaitu rangkaian teks yg digunakan untuk memberi perintah kepada komputer.Selanjutnya bahasa pemrograman membutuhkan compiler untuk membaca perintah-perintah yang dikenali oleh komputer. Adapun interpreter digunakan untuk membaca perintah-perintah bahasa pemrograman dan menjalankan langsung perintah tersebut.
 
+Perangkat Mobile yaitu, iOS dan Android.
