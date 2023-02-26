@@ -2,7 +2,7 @@
 
 ### Branching, Looping, Function
 
-Pengambilan keputusan (Control flow) menentukan alur program pada suatu kondisi. Dimana IF butuh nilai bool atau operator logical, if akan menjalankan proses jika bernilai true, jika false maka prosesnya akan dilewatkan. Adapun iF-ELSE berjalan jika blokode IF bernilai false karna ElSE merupakan alternatif jika nilai bool false. ELSE-IF untuk menambah alternatif jika nilai bool false dan juga dapat menambah pengujian nilai bool lain. 
+Pengambilan keputusan (Control flow) menentukan alur program pada suatu kondisi. Dimana IF butuh nilai bool atau operator logical, if akan menjalankan proses jika bernilai true, jika false maka prosesnya akan dilewatkan. Adapun iF-ELSE berjalan jika blokode IF bernilai false karna ELSE merupakan alternatif jika nilai bool false. ELSE-IF untuk menambah alternatif jika nilai bool false dan juga dapat menambah pengujian nilai bool lain. 
 
 Perulangan (Looping) digunakan ketika menggunakan proses yang sama secara berulang. Looping mempunyai keyword FOR memerlukan nilai awal, nilai bool (jika true looping dilanjutkan), dan pengubah nilai. Keyword WHILE membutuhkan nilai bool jika true perulangan akan lanjut tetapi tidak diketahui berapa kali perulangan akan terjadi. Keyword DO-WHILE memiliki cara kerja yang sama dengan while, namum proses dijalankan minimum sekali, jika nilai bool true maka akan diteruskan.
 
