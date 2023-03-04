@@ -17,20 +17,6 @@
 //   print('$removeDuplicate');
 // }
 
-// data = ['js', 'js', 'js', 'golang', 'python', 'js', 'js', 'golang', 'rust']
-
-// # Menghitung frekuensi kemunculan setiap data
-// freq = {}
-// for item in data:
-//     if item in freq:
-//         freq[item] += 1
-//     else:
-//         freq[item] = 1
-
-// # Menampilkan hasil
-// for key, value in freq.items():
-//     print(f'{key}: {value}')
-
 void main() {
   List<String> language = [
     'js',
