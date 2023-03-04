@@ -1,7 +1,7 @@
 void main() {
-  for (var i = 1; i <= 10; i += 1) {
-    print(i);
-  }
+  // for (var i = 1; i <= 10; i += 1) {
+  //   print(i);
+  // }
 
   var rows = 6;
   for (int i = 1; i < rows; i++) {
