@@ -48,6 +48,12 @@ class HomePage extends StatelessWidget {
       //       );
       //     }),
 
+      floatingActionButton: FloatingActionButton(
+        backgroundColor: secondaryColor,
+        onPressed: () {},
+        child: const Icon(Icons.add),
+      ),
+
       bottomNavigationBar: BottomNavigationBar(
           backgroundColor: primaryColor,
           selectedItemColor: baseColor,
