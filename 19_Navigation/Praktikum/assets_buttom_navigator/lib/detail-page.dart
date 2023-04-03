@@ -36,28 +36,3 @@ class DetailPage extends StatelessWidget {
     );
   }
 }
-
-
-
-//     final index = ModalRoute.of(context)!.settings.arguments as String;
-//     return Scaffold(
-//       appBar: AppBar(
-//         title: const Text('Detail Gallery'),
-//       ),
-//       body: SingleChildScrollView(
-//         child: Column(
-//           children: [
-//             const Padding(
-//               padding: EdgeInsets.all(18),
-//               child: Text(
-//                 'Detail Gallery',
-//                 style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
-//               ),
-//             ),
-//             Image.asset(index),
-//           ],
-//         ),
-//       ),
-//     );
-//   }
-// }

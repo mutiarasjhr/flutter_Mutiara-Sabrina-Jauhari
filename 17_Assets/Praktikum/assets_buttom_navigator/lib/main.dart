@@ -1,5 +1,4 @@
 import 'package:assets_buttom_navigator/myhome.dart';
-import 'package:assets_buttom_navigator/prioritas%202/page/see_more.dart';
 import 'package:flutter/material.dart';
 import 'detail-page.dart';
 
@@ -21,7 +20,7 @@ class MyApp extends StatelessWidget {
       ),
       initialRoute: '/',
       routes: {
-        '/detail-page': (context) => DetailPage(),
+        '/detail-page': (context) => const DetailPage(),
       },
       home: const MyHome(),
       // SeeMore()
