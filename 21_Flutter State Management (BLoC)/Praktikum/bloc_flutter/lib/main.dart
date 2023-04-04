@@ -1,4 +1,5 @@
-import 'package:bloc_flutter/bloc/contact_bloc.dart';
+import 'package:bloc_flutter/bloc/data_bloc.dart';
+import 'package:bloc_flutter/detail.dart';
 import 'package:bloc_flutter/home.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -13,11 +14,13 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return BlocProvider<KontakBloc>(
-      create: (context) => KontakBloc(),
-      child: const MaterialApp(
+    return BlocProvider<DataBloc>(
+      create: (context) => DataBloc(),
+      child: MaterialApp(
+        debugShowCheckedModeBanner: false,
         title: 'Flutter Demo',
-        home: Home(),
+        routes: {'/detail': (context) => const DetailPage()},
+        home: const Home(),
       ),
     );
   }
