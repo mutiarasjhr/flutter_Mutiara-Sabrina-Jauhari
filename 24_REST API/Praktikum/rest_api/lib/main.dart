@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:rest_api/eksplorasi/homepage.dart';
 import 'package:rest_api/prioritas1/prio1.dart';
+import 'package:rest_api/prioritas2/prio2.dart';
+import 'package:rest_api/eksplorasi/homepage.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +20,9 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.amber,
       ),
-      home: HomePrio1(),
+      // home: HomePrio1(),
+      // home: HomePrio2(),
+      home: HomeEksplorasi(),
     );
   }
 }

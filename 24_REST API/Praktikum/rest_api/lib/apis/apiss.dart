@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:dio/dio.dart';
 import 'package:rest_api/model/contact_model.dart';
 import 'dart:convert';
+import 'package:http/http.dart' as http;
 
 class Service {
   final Dio dio = Dio();
@@ -49,5 +50,26 @@ class Service {
     } catch (e) {
       rethrow;
     }
+  }
+
+  // Prioritas 2
+  String image = "";
+  Future getImg() async {
+    final Response response =
+        await dio.get('https://api.dicebear.com/6.x/pixel-art/svg');
+
+    // debugPrint(response.data.toString());
+    image = response.data;
+    print(image);
+    return response.data;
+  }
+
+  // eksplorasi
+  Future getImageGenerate(String inputGenerate) async {
+    final Response response = await dio
+        .get('https://api.dicebear.com/6.x/pixel-art/svg?seed=$inputGenerate');
+
+    image = response.data;
+    return response.data;
   }
 }
