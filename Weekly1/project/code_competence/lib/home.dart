@@ -21,7 +21,7 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.white70,
+        backgroundColor: Color.fromARGB(255, 222, 217, 214),
         title: Text(
           'Clothing.id',
           style: GoogleFonts.aleo(
@@ -30,6 +30,7 @@ class _HomeState extends State<Home> {
               fontStyle: FontStyle.italic,
               fontWeight: FontWeight.w700),
         ),
+        centerTitle: true,
         leading: Icon(
           Icons.shopping_bag,
           color: Color.fromARGB(255, 54, 50, 50),
@@ -40,13 +41,11 @@ class _HomeState extends State<Home> {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             SizedBox(
-              width: 400,
-              height: 400,
-              child: Image.asset('assets/cloth.jpg'),
+              height: 20,
             ),
             Center(
               child: Text(
-                'Hello, Welcome to Clothing.id App. Disini anda mencari model pakaian yang diinginkan <3',
+                'Hello, Welcome to Clothing.id App. Disini anda dapat mencari model pakaian yang diinginkan <3',
                 style: GoogleFonts.aleo(
                   textStyle: TextStyle(
                       color: Color.fromARGB(255, 91, 73, 67),
@@ -54,6 +53,14 @@ class _HomeState extends State<Home> {
                       fontWeight: FontWeight.w300),
                 ),
               ),
+            ),
+            SizedBox(
+              height: 20,
+            ),
+            SizedBox(
+              width: 400,
+              height: 400,
+              child: Image.asset('assets/cloth.jpg'),
             ),
             SizedBox(
               height: 30,
@@ -84,7 +91,7 @@ class _HomeState extends State<Home> {
                   style: TextStyle(color: Colors.black)),
               TextSpan(
                   text: "department email ",
-                  style: TextStyle(color: Colors.blue)),
+                  style: TextStyle(color: Colors.brown)),
               TextSpan(
                 text: "you'd like to contact bellow",
               )
